@@ -1,0 +1,23 @@
+{
+  "name": "common-master-fe-share-libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moneyforwardvietnam/common-master-fe-share-libs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moneyforwardvietnam/common-master-fe-share-libs/issues"
+  },
+  "homepage": "https://github.com/moneyforwardvietnam/common-master-fe-share-libs#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.12",
+    "react": "^18.1.0"
+  }
+}
