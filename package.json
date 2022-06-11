@@ -1,5 +1,5 @@
 {
-  "name": "common-master-fe-share-libs",
+  "name": "use-module-federation-remote-hook",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -8,7 +8,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare" : "npm run build"
   },
   "repository": {
     "type": "git",
