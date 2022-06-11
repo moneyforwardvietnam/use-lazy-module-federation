@@ -4,7 +4,8 @@
 
 This project is to make Micro FE with [Module Federation](https://webpack.js.org/concepts/module-federation/) become easier to use
 
-This project was inspire from this sample to load dynamic remote module [advanced-api/dynamic-remotes](https://github.com/module-federation/module-federation-examples/blob/60d3ca04454a3f356cc54c04599de3501373ce1a/advanced-api/dynamic-remotes/app1/src/App.js) 
+This project was inspire from this sample to load dynamic remote module [advanced-api/dynamic-remotes](https://github.com/module-federation/module-federation-examples/blob/60d3ca04454a3f356cc54c04599de3501373ce1a/advanced-api/dynamic-remotes/app1/src/App.js) from [Creator of Module Federation](https://github.com/ScriptedAlchemy)
+
 But it's still complex to understand all the mechanism to load remote module, so I create this hook to wrap that complex mechanism
 
 
