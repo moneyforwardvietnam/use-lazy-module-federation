@@ -109,3 +109,6 @@ export default function Container() {
 
 }
 ```
+
+## Demo 
+[sample](https://www.npmjs.com/package/use-lazy-module-federation)
