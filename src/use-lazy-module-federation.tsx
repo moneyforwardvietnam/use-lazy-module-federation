@@ -1,11 +1,20 @@
 import { lazy, useEffect, useState } from "react";
 
+export type useLazyModuleFederationProps<T=any, > = (params: {
+  url?: string;
+  scope?: string;
+  module?: string;
+}) => ({
+  errorLoading: boolean
+  Component: T
+})
+
 const componentCache = new Map();
-export const useModuleFederation = <T=any, >(remoteUrl?: string, scope?: string, module?: string): {errorLoading: boolean; Component: T} => {
-  const key = `${remoteUrl}-${scope}-${module}`;
+export const useLazyModuleFederation: useLazyModuleFederationProps = ({url, scope, module}) => {
+  const key = `${url}-${scope}-${module}`;
   const [Component, setComponent] = useState<any>(null);
 
-  const { ready, errorLoading } = useDynamicScript(remoteUrl);
+  const { ready, errorLoading } = useDynamicScript(url);
   useEffect(() => {
     if (Component) setComponent(null);
     

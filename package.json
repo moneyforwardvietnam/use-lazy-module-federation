@@ -1,5 +1,5 @@
 {
-  "name": "use-module-federation-remote-hook",
+  "name": "use-lazy-module-federation",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/moneyforwardvietnam/common-master-fe-share-libs.git"
   },
-  "author": "",
+  "author": "brian-to",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/moneyforwardvietnam/common-master-fe-share-libs/issues"

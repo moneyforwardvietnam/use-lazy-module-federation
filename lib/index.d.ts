@@ -1,1 +1,1 @@
-export * from './use-module-federation';
+export * from './use-lazy-module-federation';
