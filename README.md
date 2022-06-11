@@ -111,4 +111,4 @@ export default function Container() {
 ```
 
 ## Demo 
-[sample](https://www.npmjs.com/package/use-lazy-module-federation)
+[example here](https://github.com/moneyforwardvietnam/use-lazy-module-federation-example)
