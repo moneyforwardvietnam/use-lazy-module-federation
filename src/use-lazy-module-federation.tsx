@@ -1,16 +1,14 @@
-import { lazy, useEffect, useState } from "react";
+import { FunctionComponent, lazy, useEffect, useState } from "react";
 
-export type useLazyModuleFederationProps<T=any, > = (params: {
+const componentCache = new Map();
+export const useLazyModuleFederation = <T = any, >({url, scope, module}: {
   url?: string;
   scope?: string;
   module?: string;
-}) => ({
+}): ({
   errorLoading: boolean
-  Component: T
-})
-
-const componentCache = new Map();
-export const useLazyModuleFederation: useLazyModuleFederationProps = ({url, scope, module}) => {
+  Component: FunctionComponent<T>
+}) => {
   const key = `${url}-${scope}-${module}`;
   const [Component, setComponent] = useState<any>(null);
 
