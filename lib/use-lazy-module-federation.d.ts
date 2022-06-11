@@ -1,9 +1,9 @@
-export declare type useLazyModuleFederationProps<T = any> = (params: {
-    url?: string;
-    scope?: string;
-    module?: string;
-}) => ({
+import { FunctionComponent } from "react";
+export declare const useLazyModuleFederation: <T = any>({ url, scope, module }: {
+    url?: string | undefined;
+    scope?: string | undefined;
+    module?: string | undefined;
+}) => {
     errorLoading: boolean;
-    Component: T;
-});
-export declare const useLazyModuleFederation: useLazyModuleFederationProps;
+    Component: FunctionComponent<T>;
+};
