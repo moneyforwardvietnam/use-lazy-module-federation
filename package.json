@@ -2,9 +2,13 @@
   "name": "common-master-fe-share-libs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,7 @@
   "homepage": "https://github.com/moneyforwardvietnam/common-master-fe-share-libs#readme",
   "devDependencies": {
     "@types/react": "^18.0.12",
-    "react": "^18.1.0"
+    "react": "^18.1.0",
+    "typescript": "^4.7.3"
   }
 }
