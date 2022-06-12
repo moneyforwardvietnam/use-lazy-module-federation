@@ -7,6 +7,14 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "micro front end",
+    "webpack",
+    "module federation",
+    "dynamic remote module",
+    "hook",    
+    "runtime loading"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare" : "npm run build"
