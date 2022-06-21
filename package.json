@@ -1,6 +1,6 @@
 {
   "name": "use-dynamic-module-federation",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
